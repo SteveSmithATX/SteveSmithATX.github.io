@@ -1,6 +1,11 @@
 # SteveSmithATX.github.io
 Website 
 
-This Site will be about Scooters
+This Site will be about Tailgating
 
-Owned scooters and possible purchases
+Why?
+
+unordered list - inventory
+
+image of tailgate set up
+

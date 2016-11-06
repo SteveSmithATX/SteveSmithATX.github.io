@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>RSVP to come Party with Me!</title>
+</head>
+<body>
+	<form name="rsvp" method="post" action="submit.html">
+	<fieldset>
+	<H1>RSVP For each game</H1>
+	<br>
+	Name:
+	<input type="text" name="fullname"> <br>
+	Phone Contact Number: 
+	<input type="number" name="phonenumber"> <br>
+	Email: 
+	<input type="text" name="email"> <br>
+	</fieldset>
+	<fieldset>
+	Which Game are you coming to? <br>
+	<input type="radio" name="whichgame" value="west virginia" checked> West Virginia
+	<input type="radio" name="whichgame" value="Kansas University"> Kansas University
+	<input type="radio" name="whichgame" value="TCU"> TCU <br>
+	</fieldset>
+	<fieldset>
+		<div>
+			<label>How Many are coming?</label>
+			<select>
+				<option value="+1">+1</option>
+				<option value="+2">+2</option>
+				<option value="+3">+3</option>
+				<option value="+4">+4</option>
+				<option value="+5">+5</option>
+				<option value="+6">+6</option>
+				<option value="6+">6+</option>
+			</select>
+		</div>	
+	</fieldset>
+	<fieldset>
+		<button type="submit">Let's Tailgate!</button>
+	</fieldset>
+	</form>
+</body>
+</html>
