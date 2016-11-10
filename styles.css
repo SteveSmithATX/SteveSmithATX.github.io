@@ -1,0 +1,41 @@
+* {
+	background: #D5DBDB;
+	font-style: helvetica;
+}
+
+div li{
+	background: #ADC1EB;
+	padding: 10px;
+	max-width: 250px;
+}
+div li:first-of-type{
+	border-top-left-radius: 10px;
+	border-top-right-radius: 10px;
+}
+
+div li:last-of-type {
+	border-bottom-left-radius: 10px;
+	border-bottom-right-radius: 10px;
+}
+
+h1, h2, h3 {
+	color: #0940B2;
+}
+
+blockquote {
+	font-family: 'Dancing Script', cursive;
+}
+
+p {
+	background-color: #F0B27A
+	}
+
+a {
+	background-color: #F0B27A
+}
+
+img {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
